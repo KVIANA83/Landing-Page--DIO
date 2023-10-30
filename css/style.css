@@ -1,0 +1,252 @@
+/* Estilo Geral */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tektur', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(to bottom right,#000,#7e33b7,#000);
+ 
+}
+
+.interface{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+  color: #C58CDC;
+}
+
+p{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+/* Cabeçalho */
+
+header{
+  padding: 40px 4%;
+}
+
+header.interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a{
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+}
+
+header nav.menu a:hover{
+  background-color: #ff7f50;
+  transform: scale(1.05);
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav.menu ul li{
+  display: inline-block;
+  padding: 0 40px;
+  color: #c59cdc;
+}
+
+
+
+/* Sobre */
+
+section.sobre{
+  padding: 80px 10%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre h2{
+  line-height: 40px;
+  margin-bottom: 80px;
+}
+
+.sobre .txt-sobre p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.btn-social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  background-color: #c58cdc;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
+  color: #f1f1f1;
+}
+
+.btn-social button:hover{
+  background-color: #ff7f50;
+}
+
+
+/* Jogos */
+
+section.jogos{
+  padding: 80px 10%;
+}
+
+section .btn-jogos{
+  margin-top: 20px;
+  text-align: center;
+  display: grid;
+} 
+
+.btn-jogos button{
+  border-radius: 20px;
+  background-color: #c58cdc;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-weight: 250;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 40px;
+  transition: .2s;
+  width: 300px;
+}
+
+.btn-jogos button:hover{
+  background-color: #ff7f50;
+}
+
+
+/* Formulario */
+
+section.formulario{
+  padding: 80px 4%;
+}
+
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+form input, form textarea {
+  width: 100%;
+  background-color: #24022E;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+form textarea {
+  resize: none;
+  max-height: 200px;
+}
+
+form .btn-enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input {
+  width: 120px;	
+  background-color: #C58CDC;
+  color: #f1f1f1;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s;
+}
+
+form .btn-enviar input:hover{
+  background-color: #ff7f50;
+}
+
+
+/* Rodapé */
+
+footer{
+  padding: 30px 4%;
+  box-shadow: 0 0 40px 10px #ffffff1d
+}
+
+footer .flex{
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+footer .line-footer{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.borda{
+  border-top: 2px solid #C58CDC;
+}
+
+img{
+  max-width: 350px;
+}
+.img-inicial{
+display: flex;
+justify-content: flex-end;
+}
+.logomarca{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 6%;
+  text-decoration: none;
+}
+.menu{
+display: flex;
+justify-content: flex-end;
+
+
+}
+#gamer{
+max-width: 700px;
+
+}
+.img-inicial h2{
+font-size: 100px;
+margin: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
